@@ -1,5 +1,4 @@
 window.onload = function() {
-console.log('Script is running');
   fetch('https://api.coingecko.com/api/v3/global')
     .then(response => response.json())
     .then(data => {
