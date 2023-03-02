@@ -1,4 +1,5 @@
 window.onload = function() {
+    console.log('Script is running');
   const socket = new WebSocket('wss://stream.binance.com:9443/ws');
 
   // Subscribe to BTC/USDT, ETH/USDT, BNB/USDT, and SOL/USDT pairs
